@@ -1,0 +1,131 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #18978F;
+  color: white;
+}
+
+hr {
+  border: none;
+  border-top: 5px #eaf6f6 dotted;
+  width: 5%;
+  margin-bottom: 100px;
+}
+
+.topcontainer {
+  background-color: #EFFFFD;
+  margin: 0;
+  padding-top: 100px;
+}
+
+.pp {
+  width: 20%;
+  border-radius: 100%;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.football {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.programming {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.cloud1 {
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  right: 200px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 200px;
+  top: 300px;
+}
+
+.profile {
+  width: 30%;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+.btn {
+  background: #54BAB9;
+  background-image: -webkit-linear-gradient(top, #54BAB9, #18978F);
+  background-image: -moz-linear-gradient(top, #54BAB9, #18978F);
+  background-image: -ms-linear-gradient(top, #54BAB9, #18978F);
+  background-image: -o-linear-gradient(top, #54BAB9, #18978F);
+  background-image: linear-gradient(to bottom, #54BAB9, #18978F);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: #18978F;
+  text-decoration: none;
+}
+
+.bottom-container {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #66BFBF;
+  padding: 40px 0;
+  margin-top: 50px;
+  color: white;
+  line-height: 2;
+}
+
+.footer-link {
+  padding: 10px;
+  border-radius: 14%;
+}
+
+.contact-me {
+  line-height: 2;
+}
